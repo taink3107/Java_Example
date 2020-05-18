@@ -12,6 +12,6 @@ public class Main {
         ProductDAO productDAO = new ProductDAO();
         List<Product> list = productDAO.getAllProduct();
         controller.buyProduct();
-
+        System.out.println("---XYZ---");
     }
 }
